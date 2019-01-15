@@ -1,2 +1,2 @@
-# scripture-reading-app
-Xamarin Mobile Scripture reading app
+# Optocentral-EMR-App
+Xamarin Mobile Electric Medical Records App
