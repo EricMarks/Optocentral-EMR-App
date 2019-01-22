@@ -1,0 +1,2 @@
+C:\Users\Testing\Documents\GitHub\Optocentral-EMR-App\Optocentral-EMR-App\Optocentral-EMR-App\Optocentral-EMR-App.Android\obj\Debug\81\MonoAndroid,Version=v8.1.AssemblyAttributes.cs
+C:\Users\Testing\Documents\GitHub\Optocentral-EMR-App\Optocentral-EMR-App\Optocentral-EMR-App\Optocentral-EMR-App.Android\obj\Debug\81\Optocentral-EMR-App.Android.csprojAssemblyReference.cache

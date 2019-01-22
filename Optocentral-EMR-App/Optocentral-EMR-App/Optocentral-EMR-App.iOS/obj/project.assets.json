@@ -656,20 +656,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
+    "C:\\Users\\Testing\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App.iOS\\Optocentral-EMR-App.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App.iOS\\Optocentral-EMR-App.iOS.csproj",
       "projectName": "Optocentral-EMR-App.iOS",
-      "projectPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App.iOS\\Optocentral-EMR-App.iOS.csproj",
-      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App.iOS\\Optocentral-EMR-App.iOS.csproj",
+      "packagesPath": "C:\\Users\\Testing\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App\\Optocentral-EMR-App.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Testing\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
