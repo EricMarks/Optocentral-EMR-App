@@ -55,3 +55,13 @@ C:\Users\Testing\source\repos\EMR\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\XamlC.st
 C:\Users\Testing\source\repos\EMR\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.csproj.CopyComplete
 C:\Users\Testing\source\repos\EMR\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.exe
 C:\Users\Testing\source\repos\EMR\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.pdb
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\optimized\
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.csprojAssemblyReference.cache
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.csproj.CoreCompileInputs.cache
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.exe
+D:\C#\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.pdb

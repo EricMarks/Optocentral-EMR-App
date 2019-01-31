@@ -10,3 +10,15 @@ C:\Users\Testing\source\repos\EMR\EMR\EMR\obj\Debug\netstandard2.0\EMR.AssemblyI
 C:\Users\Testing\source\repos\EMR\EMR\EMR\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Testing\source\repos\EMR\EMR\EMR\obj\Debug\netstandard2.0\EMR.dll
 C:\Users\Testing\source\repos\EMR\EMR\EMR\obj\Debug\netstandard2.0\EMR.pdb
+D:\C#\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.deps.json
+D:\C#\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.dll
+D:\C#\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.pdb
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.csproj.CoreCompileInputs.cache
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.AssemblyInfoInputs.cache
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.AssemblyInfo.cs
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\XamlC.stamp
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.dll
+D:\C#\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.pdb

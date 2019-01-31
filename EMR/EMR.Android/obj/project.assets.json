@@ -795,20 +795,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Testing\\.nuget\\packages\\": {}
+    "C:\\Users\\Elizabeth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Testing\\source\\repos\\EMR\\EMR\\EMR.Android\\EMR.Android.csproj",
+      "projectUniqueName": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR.Android\\EMR.Android.csproj",
       "projectName": "EMR.Android",
-      "projectPath": "C:\\Users\\Testing\\source\\repos\\EMR\\EMR\\EMR.Android\\EMR.Android.csproj",
-      "packagesPath": "C:\\Users\\Testing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Testing\\source\\repos\\EMR\\EMR\\EMR.Android\\obj\\",
+      "projectPath": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR.Android\\EMR.Android.csproj",
+      "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Testing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Elizabeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -821,8 +821,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Testing\\source\\repos\\EMR\\EMR\\EMR\\EMR.csproj": {
-              "projectPath": "C:\\Users\\Testing\\source\\repos\\EMR\\EMR\\EMR\\EMR.csproj"
+            "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj": {
+              "projectPath": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj"
             }
           }
         }
