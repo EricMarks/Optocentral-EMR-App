@@ -13,7 +13,6 @@ C:\Users\Testing\source\repos\EMR\EMR\EMR\obj\Debug\netstandard2.0\EMR.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.deps.json
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.dll
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.pdb
-C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.csprojAssemblyReference.cache
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.csproj.CoreCompileInputs.cache

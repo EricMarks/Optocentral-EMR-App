@@ -100,7 +100,6 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimul
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\EMR.dll
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\EMR.pdb
-C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\EMR.dll.mdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
