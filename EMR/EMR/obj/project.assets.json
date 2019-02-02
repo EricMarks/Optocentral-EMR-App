@@ -343,23 +343,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Carlos\\.nuget\\packages\\": {},
+    "C:\\Users\\Elizabeth\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj",
+      "projectUniqueName": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj",
       "projectName": "EMR",
-      "projectPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj",
-      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\obj\\",
+      "projectPath": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj",
+      "packagesPath": "C:\\Users\\Elizabeth\\.nuget\\packages\\",
+      "outputPath": "D:\\C#\\Optocentral-EMR-App\\EMR\\EMR\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Elizabeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -367,8 +367,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using EMR.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace EMR
@@ -11,7 +12,7 @@ namespace EMR
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
