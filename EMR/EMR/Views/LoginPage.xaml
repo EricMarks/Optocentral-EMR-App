@@ -13,11 +13,11 @@
 
         <StackLayout x:Name="LoginEntriesStack"
                      VerticalOptions="StartAndExpand">
-            <StackLayout.Padding>
+            <!--<StackLayout.Padding>
                 <OnIdiom x:TypeArguments="Thickness">
                     <OnIdiom.Tablet>140, 150, 140, 0</OnIdiom.Tablet>
                 </OnIdiom>
-            </StackLayout.Padding>
+            </StackLayout.Padding>-->
 
             <ActivityIndicator x:Name="ActivitySpinner"
                                Color="Red"

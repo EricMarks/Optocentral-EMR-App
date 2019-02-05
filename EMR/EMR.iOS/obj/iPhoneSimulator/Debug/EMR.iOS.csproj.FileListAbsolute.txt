@@ -112,3 +112,4 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimul
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.csproj.CopyComplete
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.exe
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.pdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\EMR.dll.mdb

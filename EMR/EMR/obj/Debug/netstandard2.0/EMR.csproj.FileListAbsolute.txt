@@ -21,3 +21,5 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstanda
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.dll
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.pdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\EMR.csprojAssemblyReference.cache
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
