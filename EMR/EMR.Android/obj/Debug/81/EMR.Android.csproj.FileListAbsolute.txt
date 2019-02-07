@@ -243,6 +243,10 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\S
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\System.ServiceModel.Internals.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\Mono.Security.pdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\EMR.dll.mdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\SQLiteNetExtensions.pdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\Microsoft.CSharp.pdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\SQLiteNetExtensions.dll.mdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\EMR.Android.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -265,9 +269,10 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\8
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\System.ServiceModel.Internals.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\Mono.Security.pdb
-C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\EMR.dll.mdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\EMR.dll.mdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\SQLiteNetExtensions.dll.mdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\EMR.dll.mdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\SQLiteNetExtensions.dll.mdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\EMR.Android.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\Mono.Android.pdb
@@ -290,4 +295,7 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\8
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\Xamarin.Forms.Core.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\Xamarin.Forms.Platform.Android.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\android\assets\Xamarin.Forms.Xaml.pdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR\bin\Debug\netstandard2.0\EMR.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\bin\Debug\EMR.dll.mdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\EMR.dll.mdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.Android\obj\Debug\81\linksrc\SQLiteNetExtensions.dll.mdb

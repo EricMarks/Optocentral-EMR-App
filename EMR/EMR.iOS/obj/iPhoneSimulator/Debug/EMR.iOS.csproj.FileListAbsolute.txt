@@ -113,3 +113,12 @@ C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimul
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.exe
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\obj\iPhoneSimulator\Debug\EMR.iOS.pdb
 C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\EMR.dll.mdb
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\Newtonsoft.Json.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLite-net.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLiteNetExtensions.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_green.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.core.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLitePCLRaw.provider.sqlite3.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.Platform.XamarinIOS.Unified.dll
+C:\Users\Carlos\Documents\GitHub\Optocentral-EMR-App\EMR\EMR.iOS\bin\iPhoneSimulator\Debug\SQLite.Net.dll

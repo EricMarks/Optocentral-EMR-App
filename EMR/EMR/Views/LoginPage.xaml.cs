@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using EMR.Models;
+using EMR.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -27,20 +28,25 @@ namespace EMR.Views
             LoginIcon.HeightRequest = Constants.LoginIconHeight;
 
             Entry_Username.Completed += (s, e) => Entry_Passwrod.Focus();
-            Entry_Passwrod.Completed += (s, e) => SignInProceduce(s, e);
+            Entry_Passwrod.Completed +=  (s, e) =>  SignInProceduce(s, e);
         }
 
-        void SignInProceduce(object sender, EventArgs e)
+         void SignInProceduce(object sender, EventArgs e)
         {
-            User user = new User(Entry_Username.Text, Entry_Passwrod.Text);
-            if (user.CheckInformation())
+            UserViewModel _userViewModel = new UserViewModel();
+            User user = new User();
+            
+            if (_userViewModel.CheckLogin(Entry_Username.Text, Entry_Passwrod.Text))
             {
-                DisplayAlert("Login", "Login Sucess", "Correct");
+                  DisplayAlert("Login", "Login Sucess", "Correct");
+               
             }
             else
             {
-                DisplayAlert("Login", "Login Not Sucess, or empty username or password", "Imcorrect");
+
+                 DisplayAlert("Login", "Login Not Sucess, or empty username or password", "Imcorrect");
             }
+          
         }
     }
 }
