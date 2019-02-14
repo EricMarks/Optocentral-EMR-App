@@ -1,14 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:EMR"
-             x:Class="EMR.MainPage">
+             xmlns:local1="clr-namespace:EMR.Pages"
+             x:Class="EMR.MainPage" BarBackgroundColor="Gray">
+    <TabbedPage.Children>
+        <local1:Patient Icon="Patient"></local1:Patient>
+        <local1:History Icon="Patient"></local1:History>
+        <local1:Exams Icon="Patient"></local1:Exams>
+        <local1:Contact Icon="Patient"></local1:Contact>
+        <local1:Others Icon="Patient"></local1:Others>
+    </TabbedPage.Children>
+        
+    
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to the main page" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
-</ContentPage>
+</TabbedPage>

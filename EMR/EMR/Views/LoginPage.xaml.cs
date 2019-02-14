@@ -33,19 +33,21 @@ namespace EMR.Views
 
          void SignInProceduce(object sender, EventArgs e)
         {
-            UserViewModel _userViewModel = new UserViewModel();
-            User user = new User();
-            
-            if (_userViewModel.CheckLogin(Entry_Username.Text, Entry_Passwrod.Text))
-            {
-                  DisplayAlert("Login", "Login Sucess", "Correct");
-               
-            }
-            else
+            //UserViewModel _userViewModel = new UserViewModel();
+            //User user = new User();
+            //_userViewModel.CheckLogin(Entry_Username.Text, Entry_Passwrod.Text
+            if (true)
             {
 
-                 DisplayAlert("Login", "Login Not Sucess, or empty username or password", "Imcorrect");
+                DisplayAlert("Login", "Login Sucess", "Correct");
+                this.Navigation.PushModalAsync(   new MainPage());
+               
             }
+            //else
+            //{
+
+                 //DisplayAlert("Login", "Login Not Sucess, or empty username or password", "Imcorrect");
+           // }
           
         }
     }
