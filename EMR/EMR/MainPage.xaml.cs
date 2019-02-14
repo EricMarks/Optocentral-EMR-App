@@ -12,6 +12,7 @@ namespace EMR
         public MainPage()
         {
             InitializeComponent();
+            Int();
         }
     }
 }
