@@ -1074,7 +1074,7 @@
       ]
     },
     "Xamarin.Forms/3.4.0.1029999": {
-      "sha512": "qupCyyDo1x3c0BfroaTOhkc6wjeBXQnRLkUhvlgfVmZAcBjSEOaPRsa5/HWShtnkgqnySrkwzYEu3N0dG0pn7Q==",
+      "sha512": "et3gAEFuO8E+VgZU0IQnMhgk9m8mYHN6q4Cc2mKhqPV7EA7qG/aYZKojP3/dXthruoi0T18PW1+BgEW2l40D5w==",
       "type": "package",
       "path": "xamarin.forms/3.4.0.1029999",
       "files": [
@@ -1236,20 +1236,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Testing\\.nuget\\packages\\": {}
+    "C:\\Users\\Carlos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR.iOS\\EMR.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR.iOS\\EMR.iOS.csproj",
       "projectName": "EMR.iOS",
-      "projectPath": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR.iOS\\EMR.iOS.csproj",
-      "packagesPath": "C:\\Users\\Testing\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR.iOS\\obj\\",
+      "projectPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR.iOS\\EMR.iOS.csproj",
+      "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\Testing\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Carlos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1257,13 +1257,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nugetized.blob.core.windows.net/live-reload/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj": {
-              "projectPath": "C:\\Users\\Testing\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj"
+            "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj": {
+              "projectPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Optocentral-EMR-App\\EMR\\EMR\\EMR.csproj"
             }
           }
         }
