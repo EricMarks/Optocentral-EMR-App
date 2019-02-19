@@ -1,12 +1,162 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sys="clr-namespace:System;assembly=netstandard"
              x:Class="EMR.Pages.Patient" Title="Patient">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Patient"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+        
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="380"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+
+
+            </Grid.ColumnDefinitions>
+
+            <StackLayout  Margin="20,20,0,0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2">
+                <Label Margin="20,20,0,0" FontSize="25">Personal Information</Label>
+                <StackLayout  Orientation="Horizontal">
+                
+                   
+                    <Entry x:Name="Entry_FirstName"
+                   Placeholder="First Name"
+                   Margin="10,10,10,0"  WidthRequest="320" />
+
+                  
+                    <Entry x:Name="Entry_LastName"
+                   Placeholder="Last Name"
+                   Margin="10,10,10,0" WidthRequest="320"/>
+                    
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <DatePicker x:Name="DatePicker_DoB" Date="{x:Static sys:DateTime.Now}" WidthRequest="320" Margin="10,10,10,0"  >
+                        <DatePicker.Format>yyyy-MM-dd</DatePicker.Format >
+                       
+                    </DatePicker>
+                    <!--<Entry x:Name="Entry_DoB"
+                   Placeholder="DoB"
+                   Margin="10,10,10,0" WidthRequest="320" />-->
+
+                    <Picker x:Name="Picker_Gender" Title="Select a Gender"  Margin="10,10,10,0" WidthRequest="320">
+                        <Picker.Items>
+                            <x:String>Male</x:String>
+                            <x:String>Female</x:String>
+                          </Picker.Items>
+                    </Picker>
+                   
+                    
+                </StackLayout>
+                <Label Margin="20,20,0,0" FontSize="25">Address</Label>
+                <StackLayout Orientation="Horizontal">
+
+                    
+                    <Entry x:Name="Entry_Street"
+                   Placeholder="Street"
+                   Margin="10,10,10,0" WidthRequest="420" HeightRequest="30"/>
+
+                   
+                    <Entry x:Name="Entry_City"
+                   Placeholder="City"
+                   Margin="10,10,10,0" WidthRequest="220"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+
+                  
+                    <Entry x:Name="Entry_State"
+                   Placeholder="State"
+                   Margin="10,10,10,0" WidthRequest="320" />
+
+                    
+                    <Entry x:Name="Entry_Zip"
+                   Placeholder="Zip"
+                   Margin="10,10,10,0" WidthRequest="320"/>
+                </StackLayout>
+                <Label Margin="20,20,0,0" FontSize="25">Contact Information</Label>
+                <StackLayout Orientation="Horizontal">
+                  
+                    <Entry x:Name="Entry_Email"
+                   Placeholder="Email"
+                   Margin="10,10,10,0" WidthRequest="420" />
+
+                    
+                    <Entry x:Name="Entry_Phone"
+                   Placeholder="Phone"
+                   Margin="10,10,10,0" WidthRequest="220"/>
+
+                </StackLayout>
+                <StackLayout >
+                    <Editor  x:Name="Entry_AditionalInformation" Placeholder="Aditional Information" Margin="10,10,10,0" HeightRequest="100"  WidthRequest="420"  />
+                </StackLayout>
+                
+            </StackLayout>
+            
+            
+            <StackLayout Grid.Column="4" Grid.Row="0" >
+                <Button x:Name="Btn_NewRecord"
+                    Text="New Record"
+                    Clicked="Btn_NewRecord_Clicked"
+                    FontSize="Medium"
+                    Margin="10,90,0,0"  HeightRequest="80"/>
+                <Button 
+                    Text="Previus Records"
+                    FontSize="Medium"
+                    Margin="10,10,0,0"  HeightRequest="80"/>
+
+                <Button
+                    Text="Print Receipt"
+                    FontSize="Medium"
+                    Margin="10,10,0,0" HeightRequest="80"/>
+                <Button 
+                    Text="Create Rx PDF"
+                    FontSize="Medium"
+                    Margin="10,10,0,0"  HeightRequest="80"/>
+            </StackLayout>
+            <StackLayout Grid.Column="5" Grid.Row="0" >
+                <Button 
+                    Text="Delete Record"
+                    FontSize="Medium"
+                    Margin="10,90,0,0"  HeightRequest="80"/>
+                <Button 
+                    Text="Last Record"
+                    FontSize="Medium"
+                    Margin="10,10,0,0"  HeightRequest="80"/>
+                <Button 
+                    Text="Print detailed Exam Form"
+                    FontSize="Medium"
+                    Margin="10,10,0,0"  HeightRequest="80"/>
+                <Button 
+                    Text="Create Receipt PDF"
+                    FontSize="Medium"
+                    Margin="10,10,0,0"  HeightRequest="80"/>
+            </StackLayout>
+
+            <StackLayout Grid.Column="6" Grid.Row="0" >
+                <Button 
+                    Text="Previous Patient / New Chart"
+                    FontSize="Small"
+                    Margin="10,90,0,0" WidthRequest="10" HeightRequest="80"/>
+                <Button 
+                    Text="Print Rx"
+                    FontSize="Medium"
+                    Margin="10,10,0,0" WidthRequest="10" HeightRequest="80"/>
+                <Button 
+                    Text="Print Drivers License Form"
+                    FontSize="Medium"
+                    Margin="10,10,0,0" WidthRequest="10" HeightRequest="80"/>
+                <Button 
+                    Text="Diabetic Report"
+                    FontSize="Medium"
+                    Margin="10,10,0,0" WidthRequest="10" HeightRequest="80"/>
+            </StackLayout>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

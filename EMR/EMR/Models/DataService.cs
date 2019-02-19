@@ -15,17 +15,18 @@ namespace EMR.Models
        private SQLiteAsyncConnection connDB;
 
         public DataService() {
-            //DB();
-            DataAccess();
+            DB();
+           // DataAccess();
         }
         private SQLiteConnection connection;
 
-        public void DataAccess()
-        {
-            var DBPath = DependencyService.Get<IServices>().GetDBPath();
-            this.connection = new SQLiteConnection(DBPath);
-            connection.CreateTable<User>();
-        }
+        //public void DataAccess()
+        //{
+        //    var DBPath = DependencyService.Get<IServices>().GetDBPath();
+        //    this.connection = new SQLiteConnection(DBPath);
+        //    connection.CreateTable<User>();
+        //    connection.CreateTable<Patient>();
+        //}
         
 
         private async Task DB()
@@ -34,6 +35,7 @@ namespace EMR.Models
             var DBPath = DependencyService.Get<IServices>().GetDBPath();
             connDB = new SQLiteAsyncConnection(DBPath);
             await connDB.CreateTableAsync<User>().ConfigureAwait(false);
+            await connDB.CreateTableAsync<Patient>().ConfigureAwait(false);
         }
         public async Task Insert <T> (T model)
         {
