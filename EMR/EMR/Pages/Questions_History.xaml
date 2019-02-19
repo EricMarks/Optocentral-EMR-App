@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EMR.Pages.Questions_History" Title="Questions" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Label Text="Questions:" FontSize="Medium" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
+
+        <Label Text="Previous Patient" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start"/>
+        <Label Text="When was your last exam?" Grid.Row="3" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Currently wear contact lenses?" Grid.Row="4" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Sleep in contact lenses?" Grid.Row="5" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Currently pregnant?" Grid.Row="6" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Taking any meds?" Grid.Row="7" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Alergic to any meds?" Grid.Row="8" Grid.Column="1"  HorizontalOptions="Start"/>
+
+        <Button Text="Save" Grid.Row="9" Grid.Column="2"  HorizontalOptions="End"/>
+
+        <Switch IsToggled="false" Grid.Row="2" Grid.Column="1"  HorizontalOptions="End"/>
+        <Entry  Text="Years" Grid.Row="3" Grid.Column="1"  HorizontalOptions="CenterAndExpand"/>
+        <Switch IsToggled="false" Grid.Row="4" Grid.Column="1"  HorizontalOptions="End"/>
+        <Switch IsToggled="false" Grid.Row="5" Grid.Column="1"  HorizontalOptions="End"/>
+
+
+
+        <Label Text="Paper File/Chart" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
+        <Label Text="Dr. reviewed Hx from previous exam" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
+        <Label Text="Contact lens replacement frequency" Grid.Row="4" Grid.Column="3"  HorizontalOptions="Start"/>
+        <Label Text="If yes, how often?" Grid.Row="5" Grid.Column="3" HorizontalOptions="Start" />
+        
+        <Button Text="Close" Grid.Row="9" Grid.Column="3"  HorizontalOptions="Start"/>
+
+        <Switch IsToggled="false" Grid.Row="2" Grid.Column="3"  HorizontalOptions="End"/>
+        <Entry Grid.Row="3" Grid.Column="3"  HorizontalOptions="End"/>
+        <Entry Text="Years"  Grid.Row="4" Grid.Column="3"  HorizontalOptions="End"/>
+        <Entry Grid.Row="5" Grid.Column="3"  HorizontalOptions="End"/>
+
+        <Entry Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1"  HorizontalOptions="FillAndExpand"/>
+        <Entry Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="1" HorizontalOptions="FillAndExpand"/>
+
+
+    </Grid>
+</ContentPage>

@@ -10,17 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace EMR.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class History : TabbedPage
+	public partial class Questions_History : ContentPage
 	{
-		public History ()
+		public Questions_History ()
 		{
 			InitializeComponent ();
-           
 		}
-
-        private void TabbedPage_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            
-        }
-    }
+	}
 }
