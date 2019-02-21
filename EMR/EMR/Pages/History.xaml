@@ -3,14 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local1="clr-namespace:EMR.Pages"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-             android:TabbedPage.ToolbarPlacement="Bottom" BarBackgroundColor="Orange"  android:TabbedPage.IsSwipePagingEnabled="True"
+             android:TabbedPage.ToolbarPlacement="Bottom" BarBackgroundColor="LightBlue"  
              x:Class="EMR.Pages.History" Title="History">
     
     <TabbedPage.Children >
-        <local1:Ocular_History ></local1:Ocular_History>
+        <local1:Ocular_History></local1:Ocular_History>
         <local1:Patient_History ></local1:Patient_History>
         <local1:Family_History ></local1:Family_History>
-        <local1:Questions_History ></local1:Questions_History>
-
+        <!--<local1:Questions_History ></local1:Questions_History>-->
+        
+        <!--<NavigationPage Title="Test"
+                    HasNavigationBar="False" >
+            <x:Arguments>
+                <local1:Questions_History></local1:Questions_History>
+                    
+            </x:Arguments>
+        </NavigationPage>-->
+        
     </TabbedPage.Children>
 </TabbedPage>

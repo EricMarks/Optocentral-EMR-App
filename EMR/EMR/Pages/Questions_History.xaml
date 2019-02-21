@@ -15,46 +15,51 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
 
-        <Label Text="Questions:" FontSize="Medium" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
-
-        <Label Text="Previous Patient" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start"/>
-        <Label Text="When was your last exam?" Grid.Row="3" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Currently wear contact lenses?" Grid.Row="4" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Sleep in contact lenses?" Grid.Row="5" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Currently pregnant?" Grid.Row="6" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Taking any meds?" Grid.Row="7" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Alergic to any meds?" Grid.Row="8" Grid.Column="1"  HorizontalOptions="Start"/>
-
+        <Label Text="Questions:" FontSize="Large" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
+        <StackLayout  Grid.Row="2" Grid.Column="1">
+        <Label Text="Previous Patient" FontSize="Medium" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start"/></StackLayout>
+        <Label Text="When was your last exam?" FontSize="Medium" Grid.Row="3" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Currently wear contact lenses?" FontSize="Medium" Grid.Row="4" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Sleep in contact lenses?" FontSize="Medium" Grid.Row="5" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Currently pregnant?" FontSize="Medium" Grid.Row="6" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Taking any meds?" FontSize="Medium" Grid.Row="7" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Alergic to any meds?" FontSize="Medium" Grid.Row="8" Grid.Column="1"  HorizontalOptions="Start"/>
+        
         <Button Text="Save" Grid.Row="9" Grid.Column="2"  HorizontalOptions="End"/>
-
-        <Switch IsToggled="false" Grid.Row="2" Grid.Column="1"  HorizontalOptions="End"/>
-        <Entry  Text="Years" Grid.Row="3" Grid.Column="1"  HorizontalOptions="CenterAndExpand"/>
+        
+        <StackLayout Grid.Row="2" Grid.Column="1"  HorizontalOptions="End">
+        <Switch IsToggled="false" Grid.Row="2" Grid.Column="1"  HorizontalOptions="End" />
+        </StackLayout>
+        <Entry  Placeholder="Years" BackgroundColor="Gray" Grid.Row="3" Grid.Column="1"  HorizontalOptions="End"/>
+        <StackLayout Grid.Row="4" Grid.Column="1">
         <Switch IsToggled="false" Grid.Row="4" Grid.Column="1"  HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="5" Grid.Column="1">
         <Switch IsToggled="false" Grid.Row="5" Grid.Column="1"  HorizontalOptions="End"/>
+        </StackLayout>
 
 
-
-        <Label Text="Paper File/Chart" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
-        <Label Text="Dr. reviewed Hx from previous exam" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
-        <Label Text="Contact lens replacement frequency" Grid.Row="4" Grid.Column="3"  HorizontalOptions="Start"/>
-        <Label Text="If yes, how often?" Grid.Row="5" Grid.Column="3" HorizontalOptions="Start" />
+        <Label Text="Paper File/Chart" FontSize="Medium" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
+        <Label Text="Dr. reviewed Hx from previous exam" FontSize="Medium" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
+        <Label Text="Contact lens replacement frequency" FontSize="Medium" Grid.Row="4" Grid.Column="3"  HorizontalOptions="Start"/>
+        <Label Text="If yes, how often?" Grid.Row="5" FontSize="Medium" Grid.Column="3" HorizontalOptions="Start" />
         
         <Button Text="Close" Grid.Row="9" Grid.Column="3"  HorizontalOptions="Start"/>
 
         <Switch IsToggled="false" Grid.Row="2" Grid.Column="3"  HorizontalOptions="End"/>
         <Entry Grid.Row="3" Grid.Column="3"  HorizontalOptions="End"/>
-        <Entry Text="Years"  Grid.Row="4" Grid.Column="3"  HorizontalOptions="End"/>
-        <Entry Grid.Row="5" Grid.Column="3"  HorizontalOptions="End"/>
+        <Entry Placeholder="Years"  PlaceholderColor="Gray" Grid.Row="4" Grid.Column="3"  HorizontalOptions="End"/>
+        <Entry PlaceholderColor="Gray" Grid.Row="5" Grid.Column="3"  HorizontalOptions="End"/>
 
-        <Entry Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1"  HorizontalOptions="FillAndExpand"/>
-        <Entry Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="1" HorizontalOptions="FillAndExpand"/>
+        <Entry PlaceholderColor="Gray" Grid.Row="7" Grid.Column="2" Grid.ColumnSpan="1"  HorizontalOptions="FillAndExpand"/>
+        <Entry PlaceholderColor="Gray" Grid.Row="8" Grid.Column="2"  Grid.ColumnSpan="1" HorizontalOptions="FillAndExpand"/>
 
 
     </Grid>

@@ -16,5 +16,15 @@ namespace EMR.Pages
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("you want to save? ", "set","cancel");
+        }
+
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+
+        }
+    }
 }

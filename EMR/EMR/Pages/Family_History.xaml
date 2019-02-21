@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="EMR.Pages.Family_History" Title="Family History">
+             x:Class="EMR.Pages.Family_History" Title="Family History" >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -22,29 +22,38 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Label Text="Family Hx - Check all that apply:" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
+        <Label Text="Family Hx - Check all that apply:" FontSize="Large" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
 
-        <Label Text="Diabetes" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start"/>
-        <Label Text="Hypertension" Grid.Row="3" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Other" Grid.Row="4" Grid.Column="1"  HorizontalOptions="Start"/>
+        <Label Text="Diabetes" FontSize="Medium" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start"/>
+        <Label Text="Hypertension" FontSize="Medium" Grid.Row="3" Grid.Column="1"  HorizontalOptions="Start"/>
+        <StackLayout Grid.Row="4" Grid.Column="1">
+            <Label Text="Other" FontSize="Medium"   HorizontalOptions="Start"/>
+        </StackLayout>
 
-
-        <Button Text="Save" Grid.Row="7" Grid.Column="2"  HorizontalOptions="End"/>
-
-        <Switch IsToggled="false" Grid.Row="2" Grid.Column="1"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="3" Grid.Column="1"  HorizontalOptions="End"/>
+        <Button Text="Save" Grid.Row="7" Grid.Column="2"  HorizontalOptions="End" Clicked="Button_Clicked"/>
         
+        <StackLayout Grid.Row="2" Grid.Column="1">       
+            <Switch IsToggled="false"   HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="1" >
+            <Switch IsToggled="false"  HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Grid.Column="2" Grid.ColumnSpan="2">
+            <Entry PlaceholderColor="Gray"  BackgroundColor="LightGray" />
+        </StackLayout>
 
-
-        <Label Text="Thyroid Condition" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
-        <Label Text="Headaches" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
+        <Label Text="Thyroid Condition" FontSize="Medium" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
+        <Label Text="Headaches" FontSize="Medium" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
         
 
         <Button Text="Close" Grid.Row="7" Grid.Column="3"  HorizontalOptions="Start"/>
-
-        <Switch IsToggled="false" Grid.Row="2" Grid.Column="3"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="3" Grid.Column="3"  HorizontalOptions="End"/>
-     
+        
+        <StackLayout Grid.Row="2" Grid.Column="3">
+            <Switch IsToggled="false"   HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="3" >
+            <Switch IsToggled="false"  HorizontalOptions="End"/>
+        </StackLayout>
 
 
     </Grid>

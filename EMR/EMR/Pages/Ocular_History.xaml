@@ -22,34 +22,61 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
         
-        <Label Text="Ocular Hx - Check all that apply:" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
+        <Label Text="Ocular Hx - Check all that apply:" FontSize="Large" Grid.Row="1" Grid.ColumnSpan="4" HorizontalOptions="CenterAndExpand"  />
         
-        <Label Text="Amblyopia" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start"/>
-        <Label Text="Strabismus" Grid.Row="3" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Glaucoma" Grid.Row="4" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Macular Degeneration" Grid.Row="5" Grid.Column="1"  HorizontalOptions="Start"/>
-        <Label Text="Other" Grid.Row="6" Grid.Column="1"  HorizontalOptions="Start"/>
+        <StackLayout Grid.Row="2" Grid.Column="1">
+        <Label Text="Amblyopia" FontSize="Medium"  HorizontalOptions="Start"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="1" >
+        <Label Text="Strabismus" FontSize="Medium"  HorizontalOptions="Start"/>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Grid.Column="1">
+        <Label Text="Glaucoma" FontSize="Medium"   HorizontalOptions="Start"/>
+        </StackLayout>
+        <StackLayout Grid.Row="5" Grid.Column="1">
+        <Label Text="Macular Degeneration" FontSize="Medium"   HorizontalOptions="Start"/>
+        </StackLayout>
+        <StackLayout Grid.Row="6" Grid.Column="1" >
+        <Label Text="Other" FontSize="Medium"  HorizontalOptions="Start"/>
+        </StackLayout>
         
-        <Button Text="Save" Grid.Row="7" Grid.Column="2"  HorizontalOptions="End"/>
+        <Button Text="Save" Grid.Row="7" Grid.Column="2"  HorizontalOptions="End" Clicked="Button_Clicked"/>
+        
+        <StackLayout Grid.Row="2" Grid.Column="1">
+        <Switch IsToggled="false"   HorizontalOptions="End"  />
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="1" >
+        <Switch IsToggled="false"  HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Grid.Column="1" >
+        <Switch IsToggled="false"  HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="5" Grid.Column="1" >
+        <Switch IsToggled="false"  HorizontalOptions="End" Toggled="Switch_Toggled" />
+        </StackLayout>
+        <StackLayout Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2">
+            <Entry Placeholder="Other"  BackgroundColor="LightGray"  />
+        </StackLayout>
 
-        <Switch IsToggled="false" Grid.Row="2" Grid.Column="1"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="3" Grid.Column="1"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="4" Grid.Column="1"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="5" Grid.Column="1"  HorizontalOptions="End"/>
-        
-        
-        <Label Text="Cataracts" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
-        <Label Text="Keratoconus" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
-        <Label Text="Refractive Surgery" Grid.Row="4" Grid.Column="3"  HorizontalOptions="Start"/>
-        <Label Text="None" Grid.Row="5" Grid.Column="3"  HorizontalOptions="Start"/>
+        <Label Text="Cataracts" FontSize="Medium" Grid.Row="2" Grid.Column="3" HorizontalOptions="Start" />
+        <Label Text="Keratoconus" FontSize="Medium" Grid.Row="3" Grid.Column="3" HorizontalOptions="Start"/>
+        <Label Text="Refractive Surgery" FontSize="Medium" Grid.Row="4" Grid.Column="3"  HorizontalOptions="Start"/>
+        <Label Text="None" FontSize="Medium" Grid.Row="5" Grid.Column="3"  HorizontalOptions="Start"/>
 
         <Button Text="Cancel" Grid.Row="7" Grid.Column="3"  HorizontalOptions="Start"/>
 
-        <Switch IsToggled="false" Grid.Row="2" Grid.Column="3"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="3" Grid.Column="3"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="4" Grid.Column="3"  HorizontalOptions="End"/>
-        <Switch IsToggled="false" Grid.Row="5" Grid.Column="3"  HorizontalOptions="End"/>
-        
+        <StackLayout Grid.Row="2" Grid.Column="3" >
+        <Switch IsToggled="false"  HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="3" Grid.Column="3">
+        <Switch IsToggled="false"   HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="4" Grid.Column="3">
+        <Switch IsToggled="false"   HorizontalOptions="End"/>
+        </StackLayout>
+        <StackLayout Grid.Row="5" Grid.Column="3">
+        <Switch IsToggled="false"   HorizontalOptions="End"/>
+        </StackLayout>
     </Grid>
 
 </ContentPage>
