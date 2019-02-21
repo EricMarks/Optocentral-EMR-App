@@ -30,7 +30,8 @@
             <Label x:Name="Lbl_Password" />
             <Entry x:Name="Entry_Passwrod"
                    Placeholder="Password"
-                   Margin="170,0,170,0" />
+                   Margin="170,0,170,0"
+                    />
             <Button x:Name="Btn_Home_SignIn"
                     Text="Sign In"
                     Clicked="SignInProceduce"
