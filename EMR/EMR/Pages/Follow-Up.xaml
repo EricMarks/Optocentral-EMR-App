@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EMR.Pages.Others" Title="Follow-Up">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="300"></RowDefinition>
+            </Grid.RowDefinitions>            
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="500"/>
+                        <ColumnDefinition Width="500"/>
+                    </Grid.ColumnDefinitions>
+                    
+                
+                    <Entry Margin="20" Grid.Column="0" x:Name="Entry_followUp"
+                   Placeholder="Enter a Follow-Up Information"
+                   WidthRequest="500" HeightRequest="20" HorizontalOptions="Center" />                
+
+                
+                    <Button Grid.Column="1" x:Name="Btn_AddFollowUp"
+                    Text="Add Follow Up"
+                    HorizontalOptions="Center"
+                    FontSize="Medium"
+                    Margin="10,90,0,0"  
+                    WidthRequest="350"  
+                    HeightRequest="50"/>
+
+                
+                </Grid>
+            
+                <ListView Grid.Row="1" x:Name="followUpList" BackgroundColor="White" WidthRequest="1000" HeightRequest="500" HorizontalOptions="Center" ItemsSource="">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            
+
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
