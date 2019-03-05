@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace EMR.Pages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Exams : TabbedPage
+	public partial class Glasses_Exams : ContentPage
 	{
-		public Exams ()
+		public Glasses_Exams ()
 		{
 			InitializeComponent ();
 		}
