@@ -10,29 +10,34 @@
               
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="500"/>
-                <ColumnDefinition Width="500"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
 
 
 
-            <StackLayout  Margin="0,20,20,20" Grid.Row="0" Grid.Column="0">
-                    <Entry  x:Name="Entry_followUp"
-                   Placeholder="Enter a Follow-Up Information"
-                 HorizontalOptions="Center" />
+            <StackLayout  Margin="5" Grid.Row="0" Grid.Column="0">
+                <Entry  x:Name="Entry_followUp"
+                        Placeholder="Enter a Follow-Up Information"
+                        Margin="10,30,10,30" 
+                        WidthRequest="500"
+                        HorizontalOptions="Center" />
+
+            </StackLayout>
+            <StackLayout  Margin="5" Grid.Row="0" Grid.Column="1">
 
 
-                    <Button x:Name="Btn_AddFollowUp"
-                    Text="Add Follow Up"
-                    HorizontalOptions="Center"
-                    FontSize="Medium"
-                    Margin="10,90,0,0"  
-                    WidthRequest="350"  
-                    HeightRequest="50"/>
+                <Button x:Name="Btn_AddFollowUp"
+                        Text="Add Follow Up"
+                        HorizontalOptions="Center"
+                        FontSize="Medium"
+                        Margin="10,30,10,30"  
+                        WidthRequest="350"  
+                        HeightRequest="50"/>
                
             </StackLayout>
 
-            <ListView Grid.Row="1" x:Name="followUpList" BackgroundColor="White" WidthRequest="1000" HeightRequest="500" HorizontalOptions="Center" ItemsSource="">
+            <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="followUpList" BackgroundColor="White" WidthRequest="1000" HeightRequest="500" HorizontalOptions="Center" ItemsSource="">
                 <ListView.ItemTemplate>
                     <DataTemplate>
 
