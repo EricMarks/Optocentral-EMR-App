@@ -16,5 +16,14 @@ namespace EMR.Pages
 		{
 			InitializeComponent ();
 		}
-	}
+
+        List<FollowUpRecords> followRecords = new List<FollowUpRecords>();        
+
+        private void Btn_AddFollowUp_Clicked(object sender, EventArgs e)
+        {
+            followRecords.Add(new FollowUpRecords(DateTime.Today, Entry_followUp.Text));
+            Entry_followUp.Text = "";
+           
+        }
+    }
 }

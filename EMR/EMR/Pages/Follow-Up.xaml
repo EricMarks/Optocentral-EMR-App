@@ -30,6 +30,7 @@
                 <Button x:Name="Btn_AddFollowUp"
                         Text="Add Follow Up"
                         HorizontalOptions="Center"
+                        Clicked="Btn_AddFollowUp_Clicked"
                         FontSize="Medium"
                         Margin="10,30,10,30"  
                         WidthRequest="350"  
@@ -44,13 +45,8 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-
-
-
-
-
-
-
+            
+            
 
 
         </Grid>
