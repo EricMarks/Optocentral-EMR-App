@@ -38,17 +38,20 @@
                
             </StackLayout>
 
-            <ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="followUpList" BackgroundColor="White" WidthRequest="1000" HeightRequest="500" HorizontalOptions="Center" ItemsSource="">
+            <!--<ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="followUpList" BackgroundColor="White" WidthRequest="1000" HeightRequest="500" HorizontalOptions="Center" ItemsSource="">
                 <ListView.ItemTemplate>
                     <DataTemplate>
 
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>
-            
-            
+            </ListView>-->
 
+
+            
 
         </Grid>
+      
+            
+        
     </ContentPage.Content>
 </ContentPage>
