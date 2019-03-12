@@ -32,70 +32,135 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <Label Text="Chief Complaint: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" />
-                <Label Text="Distance Blur" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="0" Grid.Column="2" />
-                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="3" />
-                <Label Text="Near Blur " VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="4" />
-                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="5" />
-                <Label Text="New Contacts" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="6" />
-                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="7" />
-                <Label Text="New Glasses" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="8" />
-                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="9" />
-                <Label Text="Other: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Entry Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="5"></Entry>
+                <Label Text="Chief Complaint: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+                <Label Text="Distance Blur" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="2" />
+                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="6" Grid.ColumnSpan="2" />
+                <Label Text="Near Blur " VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="10" Grid.ColumnSpan="2"/>
+                <Label Text="New Contacts" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="12" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="14" Grid.ColumnSpan="2"/>
+                <Label Text="New Glasses" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="0" Grid.Column="16" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="Start"   Grid.Row="0" Grid.Column="18" Grid.ColumnSpan="2" />
                 
-                <Label Text="IOP: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Label Text="OD" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="2" Grid.Column="2"></Label>
-                <Entry Grid.Row="2" Grid.Column="3" ></Entry>
-                <Label Text="OS" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="3" Grid.Column="2"></Label>
-                <Entry Grid.Row="3" Grid.Column="3" ></Entry>
+                
+                <Label Text="Other: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Entry Grid.Row="1" Grid.Column="5" Grid.ColumnSpan="10"></Entry>
+                
+                <Label Text="IOP: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Label Text="OD" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="2" Grid.Column="4"></Label>
+                <Entry Grid.Row="2" Grid.Column="5" ></Entry>
+                <Label Text="OS" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="3" Grid.Column="4"></Label>
+                <Entry Grid.Row="3" Grid.Column="5" ></Entry>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="2" Grid.Column="6" Grid.ColumnSpan="2" />
+                <Label Text="NCT" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="2" Grid.Column="8" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="2" Grid.Column="10" Grid.ColumnSpan="2" />
+                <Label Text="GAT" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="2" Grid.Column="12" Grid.ColumnSpan="2"/>
+                <Label Text="Keratometry" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="2" Grid.Column="14" Grid.ColumnSpan="2"/>
+                <Entry Grid.Row="2" Grid.Column="16" ></Entry>
+                <Label Text="@" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="2" Grid.Column="17" />
+                <Entry Grid.Row="2" Grid.Column="18" ></Entry>
+                <Entry Grid.Row="3" Grid.Column="16" ></Entry>
+                <Label Text="@" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" Grid.Row="3" Grid.Column="17" />
+                <Entry Grid.Row="3" Grid.Column="18" ></Entry>
 
-                <Label Text="Auto-Refraction: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Label Text="OD" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="4" Grid.Column="2"></Label>
-                <Entry Grid.Row="4" Grid.Column="3" ></Entry>
-                <Entry Grid.Row="4" Grid.Column="4" ></Entry>
+                <Label Text="Auto-Refraction: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Label Text="OD" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="4" Grid.Column="4"></Label>
                 <Entry Grid.Row="4" Grid.Column="5" ></Entry>
+                <Entry Grid.Row="4" Grid.Column="6" ></Entry>
+                <Entry Grid.Row="4" Grid.Column="7" ></Entry>
 
-                <Label Text="OS" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="5" Grid.Column="2"></Label>
-                <Entry Grid.Row="5" Grid.Column="3" ></Entry>
-                <Entry Grid.Row="5" Grid.Column="4" ></Entry>
+                <Label Text="OS" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="5" Grid.Column="4"></Label>
                 <Entry Grid.Row="5" Grid.Column="5" ></Entry>
+                <Entry Grid.Row="5" Grid.Column="6" ></Entry>
+                <Entry Grid.Row="5" Grid.Column="7" ></Entry>
+                <Label Text="Pupil Dist." VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="5" Grid.Column="9" Grid.ColumnSpan="2"></Label>
+                <Entry Grid.Row="5" Grid.Column="11" ></Entry>
 
-                <Label Text="Wearing: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Label Text="OD" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="6" Grid.Column="2"></Label>
-                <Entry Grid.Row="6" Grid.Column="3" ></Entry>
-                <Entry Grid.Row="6" Grid.Column="4" ></Entry>
+                <Label Text="Wearing: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Label Text="OD" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="6" Grid.Column="4"></Label>
                 <Entry Grid.Row="6" Grid.Column="5" ></Entry>
+                <Entry Grid.Row="6" Grid.Column="6" ></Entry>
+                <Entry Grid.Row="6" Grid.Column="7" ></Entry>
+                <Entry Grid.Row="6" Grid.Column="9" ></Entry>
+                <Label Text="20\" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="6" Grid.Column="10"></Label>
+                <Entry Grid.Row="6" Grid.Column="11" ></Entry>
+                <Label Text="VA's SC" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="6" Grid.Column="12" Grid.ColumnSpan="2"></Label>
+                <Label Text="20\" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="6" Grid.Column="14"></Label>
+                <Entry Grid.Row="6" Grid.Column="15" ></Entry>
 
-                <Label Text="OS" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="7" Grid.Column="2"></Label>
-                <Entry Grid.Row="7" Grid.Column="3" ></Entry>
-                <Entry Grid.Row="7" Grid.Column="4" ></Entry>
+                <Label Text="OS" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="7" Grid.Column="4"></Label>
                 <Entry Grid.Row="7" Grid.Column="5" ></Entry>
-
-                <Label Text="Pupils: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Label Text="Cvr T. Dst: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Label Text="Cvr T. Near: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-
-                <Label Text="Manifest Refraction: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="2"></Label>
-                <Entry Grid.Row="11" Grid.Column="2" ></Entry>
-                <Entry Grid.Row="11" Grid.Column="3" ></Entry>
-                <Entry Grid.Row="11" Grid.Column="4" ></Entry>
-                <Label Text="20/" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="11" Grid.Column="5"></Label>
-                <Entry Grid.Row="11" Grid.Column="6" ></Entry>
-                <Label Text="ADD" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="11" Grid.Column="7"></Label>
-                <Entry Grid.Row="11" Grid.Column="8" ></Entry>
+                <Entry Grid.Row="7" Grid.Column="6" ></Entry>
+                <Entry Grid.Row="7" Grid.Column="7" ></Entry>
+                <Entry Grid.Row="7" Grid.Column="9" ></Entry>
+                <Label Text="20\" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="7" Grid.Column="10"></Label>
+                <Entry Grid.Row="7" Grid.Column="11" ></Entry>
+                <Label Text="20\" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="7" Grid.Column="14"></Label>
+                <Entry Grid.Row="7" Grid.Column="15" ></Entry>
                 
-                <Entry Grid.Row="12" Grid.Column="2" ></Entry>
-                <Entry Grid.Row="12" Grid.Column="3" ></Entry>
-                <Entry Grid.Row="12" Grid.Column="4" ></Entry>
-                <Label Text="20/" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="12" Grid.Column="5"></Label>
+                <Label Text="Pupils: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="8" Grid.Column="4" />
+                <Label Text="Equal, Round, Reactive to Light" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="8" Grid.Column="5" Grid.ColumnSpan="4"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="8" Grid.Column="9" />
+                <Label Text="No APD" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="8" Grid.Column="10"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="8" Grid.Column="11" />
+                <Label Text="Other" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="8" Grid.Column="12"/>
+                <Label Text="EOM's |" VerticalTextAlignment="Center" HorizontalTextAlignment="End" Grid.Row="8" Grid.Column="14"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="8" Grid.Column="15" />
+                <Label Text="Smooth and Full" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="8" Grid.Column="16" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="8" Grid.Column="18" />
+                <Label Text="Other" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="8" Grid.Column="19"/>
+                
+                
+                
+                <Label Text="Cvr T. Dst: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="9" Grid.Column="4" />
+                <Label Text="Ortho" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="9" Grid.Column="5" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="9" Grid.Column="7" />
+                <Label Text="Other" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="9" Grid.Column="8" Grid.ColumnSpan="2"/>
+                <Label Text="Visual:" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="9" Grid.Column="10" Grid.ColumnSpan="2"></Label>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="9" Grid.Column="12" />
+                <Label Text="FTFC Confrontation" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="9" Grid.Column="13" Grid.ColumnSpan="2"/>
+                
+                <Label Text="Cvr T. Near: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="10" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="10" Grid.Column="4" />
+                <Label Text="Ortho" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="10" Grid.Column="5" Grid.ColumnSpan="2"/>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="10" Grid.Column="7" />
+                <Label Text="Other" VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="10" Grid.Column="8" Grid.ColumnSpan="2"/>
+                <Label Text="Fields:" VerticalTextAlignment="Center" HorizontalTextAlignment="End" FontSize="Medium" Grid.Row="10" Grid.Column="10" Grid.ColumnSpan="2"></Label>
+                <Switch IsToggled="false"   HorizontalOptions="End"   Grid.Row="10" Grid.Column="12" />
+                <Label Text="Other..." VerticalTextAlignment="Center" HorizontalTextAlignment="Start" Grid.Row="10" Grid.Column="13" Grid.ColumnSpan="2"/>
+                
+                <Label Text="Manifest Refraction: " VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="11" Grid.Column="0" Grid.ColumnSpan="4"></Label>
+                <Entry Grid.Row="11" Grid.Column="5" ></Entry>
+                <Entry Grid.Row="11" Grid.Column="6" ></Entry>
+                <Entry Grid.Row="11" Grid.Column="7" ></Entry>
+                <Label Text="20/" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="11" Grid.Column="8"></Label>
+                <Entry Grid.Row="11" Grid.Column="9" ></Entry>
+                <Label Text="ADD" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="11" Grid.Column="10"></Label>
+                <Entry Grid.Row="11" Grid.Column="11" ></Entry>
+                
+                <Entry Grid.Row="12" Grid.Column="5" ></Entry>
                 <Entry Grid.Row="12" Grid.Column="6" ></Entry>
-                <Label Text="ADD" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="12" Grid.Column="7"></Label>
-                <Entry Grid.Row="12" Grid.Column="8" ></Entry>
+                <Entry Grid.Row="12" Grid.Column="7" ></Entry>
+                <Label Text="20/" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="12" Grid.Column="8"></Label>
+                <Entry Grid.Row="12" Grid.Column="9" ></Entry>
+                <Label Text="ADD" VerticalTextAlignment="Center" HorizontalTextAlignment="End"  FontSize="Medium" Grid.Row="12" Grid.Column="10"></Label>
+                <Entry Grid.Row="12" Grid.Column="11" ></Entry>
 
-                <Button Text="Save" Grid.Row="13" Grid.Column="3" Grid.ColumnSpan="2"></Button>
-                <Button Text="Close" Grid.Row="13" Grid.Column="5" Grid.ColumnSpan="2"></Button>
+                <Button Text="Save" Grid.Row="13" Grid.Column="5" Grid.ColumnSpan="4"></Button>
+                <Button Text="Close" Grid.Row="13" Grid.Column="9" Grid.ColumnSpan="4"></Button>
                 
             </Grid>
         </StackLayout>
