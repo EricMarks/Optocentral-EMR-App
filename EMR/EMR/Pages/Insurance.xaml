@@ -28,7 +28,7 @@
                    Grid.Row="0"
                    Grid.Column="0"
                    FontSize="25"
-                   Margin="40, 0"
+                   Margin="20, 0"
                    HorizontalOptions="FillAndExpand" />
 
             <SearchBar x:Name="InsuranceSearchBar"

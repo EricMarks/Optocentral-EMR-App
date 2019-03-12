@@ -9,8 +9,10 @@ namespace EMR.Models
     {
         private int dob;
         private string idNum;
-        private string lastName;
+        private string lastname;
         private string firstName;
+        private string dateOfB;
+        private int phoneNum;
 
         public int DOB
         {
@@ -28,17 +30,17 @@ namespace EMR.Models
             set
             {
                 this.idNum = value;
-                RaisePropertyChanged("IDNumber");
+                RaisePropertyChanged("ID Number");
             }
         }
 
         public string LastName
         {
-            get { return lastName; }
+            get { return lastname; }
             set
             {
-                this.lastName = value;
-                RaisePropertyChanged("LastName");
+                this.lastname = value;
+                RaisePropertyChanged("Last Name");
             }
         }
 
@@ -48,16 +50,38 @@ namespace EMR.Models
             set
             {
                 this.firstName = value;
-                RaisePropertyChanged("FirstName");
+                RaisePropertyChanged("First Name");
             }
         }
 
-        public SearchInfo(int dob, string idNum, string lastName, string firstName)
+        public string DateOfBirth
+        {
+            get { return dateOfB; }
+            set
+            {
+                this.dateOfB = value;
+                RaisePropertyChanged("Date of Birth");
+            }
+        }
+
+        public int PhoneNum
+        {
+            get { return phoneNum; }
+            set
+            {
+                this.phoneNum = value;
+                RaisePropertyChanged("Phone Number");
+            }
+        }
+
+        public SearchInfo(int dob, string idNum, string name, string firstName, string dateOfB, int phoneNum)
         {
             this.DOB = dob;
             this.IDNum = idNum;
-            this.LastName = lastName;
+            this.LastName = name;
             this.FirstName = firstName;
+            this.DateOfBirth = dateOfB;
+            this.PhoneNum = phoneNum;
 
         }
 
