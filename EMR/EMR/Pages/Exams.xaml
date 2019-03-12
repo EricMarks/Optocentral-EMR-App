@@ -9,6 +9,6 @@
     <TabbedPage.Children >
         <local1:Glasses_Exams></local1:Glasses_Exams>
         <local1:Contacts_Exams></local1:Contacts_Exams>
-
+        <local1:Others Icon="others"></local1:Others>
     </TabbedPage.Children>
 </TabbedPage>
