@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-            
+             xmlns:Syncfunsion="Clr-namespace:Syncfusion.SfDataGrid.XForms;assembly-Syncfusion.SfDataGrid.Xforms"
              x:Class="EMR.Pages.Search" Title="Search">
 
     <Grid>
@@ -61,6 +61,27 @@
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"      
                 />
-        
+        <ListView x:Name="SearchDisplayLIsstView"
+                  BackgroundColor="LightGray"
+                  Grid.Row="3"
+                  Grid.Column="0"
+                  Grid.ColumnSpan="4"
+                  Grid.RowSpan="2"
+                  Margin="30, 30">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>mono</x:String>
+                    <x:String>monodroid</x:String>
+                    <x:String>monotouch</x:String>
+                    <x:String>monorail</x:String>
+                    <x:String>monodevelop</x:String>
+                    <x:String>monotone</x:String>
+                    <x:String>monopoly</x:String>
+                    <x:String>monomodal</x:String>
+                    <x:String>mononucleosis</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+
     </Grid>
 </ContentPage>
