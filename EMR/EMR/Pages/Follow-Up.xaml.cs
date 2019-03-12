@@ -18,7 +18,7 @@ namespace EMR.Pages
 		}
     
 
-        List<FollowUpRecords> followRecords = new List<FollowUpRecords>();        
+        List<FollowUpRecord> followRecords = new List<FollowUpRecord>();        
 
         private void Btn_AddFollowUp_Clicked(object sender, EventArgs e)
         {
