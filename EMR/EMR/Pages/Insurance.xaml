@@ -28,7 +28,7 @@
                    Grid.Row="0"
                    Grid.Column="0"
                    FontSize="25"
-                   Margin="40, 0"
+                   Margin="20, 0"
                    HorizontalOptions="FillAndExpand" />
 
             <SearchBar x:Name="InsuranceSearchBar"
@@ -41,7 +41,7 @@
                       Grid.Row="1"
                       Grid.Column="1"
                       Grid.ColumnSpan="3"
-                      BackgroundColor="LightGray"
+                      BackgroundColor="White"
                       Margin="20, 30" />
             <Button x:Name="Btn_AddInsuranceCode"
                     Text="Add"

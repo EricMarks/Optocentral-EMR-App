@@ -2,8 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:Syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             xmlns:local="clr-namespace:EMR.ViewModel"
              x:Class="EMR.Pages.Search" Title="Search">
 
+    <ContentPage.BindingContext>
+        <local:SearchInfoViewModel />
+    </ContentPage.BindingContext>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"></RowDefinition>
@@ -61,22 +65,15 @@
                 HorizontalOptions="Center"
                 VerticalOptions="CenterAndExpand"      
                 />
-        <ListView x:Name="SearchDisplayLIsstView"
-                  BackgroundColor="LightGray"
-                  Grid.Row="3"
-                  Grid.Column="0"
-                  Grid.ColumnSpan="4"
-                  Grid.RowSpan="2"
-                  Margin="30, 30">
-            <ListView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>mono</x:String>
-                    <x:String>monodroid</x:String>
-                  
-                </x:Array>
-            </ListView.ItemsSource>
-        </ListView>
-        <Syncfusion:SfDataGrid>
+        
+        <Syncfusion:SfDataGrid x:Name="SearchDataGrid"
+                               ItemsSource="{Binding SearchInfo}"
+                               DefaultColumnWidth="100"
+                               Grid.Row="3"
+                               Grid.Column="0"
+                               Grid.ColumnSpan="4"
+                               Grid.RowSpan="2"
+                               Margin="30, 30">
             
         </Syncfusion:SfDataGrid>
 
