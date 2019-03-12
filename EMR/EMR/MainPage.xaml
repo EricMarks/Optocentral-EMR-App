@@ -12,6 +12,7 @@
         <local1:Exams Icon="Patient"></local1:Exams>
         <local1:Contact Icon="Patient"></local1:Contact>
         <local1:Search Icon="Patient"></local1:Search>
+        <local1:Insurance Icon="Patient"></local1:Insurance>
         <local1:Others Icon="Patient"></local1:Others>
         
         

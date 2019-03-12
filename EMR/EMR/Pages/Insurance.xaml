@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="EMR.Pages.Insurance" Title="Insurance">
+    <StackLayout>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="30"></RowDefinition>
+                <RowDefinition Height="20"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="10"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Insurance Code:"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   FontSize="25"
+                   Margin="20, 0"
+                   HorizontalOptions="FillAndExpand" />
+
+            <SearchBar x:Name="InsuranceSearchBar"
+                       SearchButtonPressed="InsuranceSearchBar_SearchButtonPressed"
+                       TextChanged="Handle_TextChanged"
+                       Grid.Row="0"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="3" />
+            <ListView x:Name="InsuranceListView"
+                      Grid.Row="1"
+                      Grid.Column="1"
+                      Grid.ColumnSpan="3"
+                      BackgroundColor="LightGray"
+                      Margin="20, 30" />
+            <Button x:Name="Btn_AddInsuranceCode"
+                    Text="Add"
+                    Grid.Row="0"
+                    Grid.Column="4"
+                    Margin="25, 0"
+                    FontSize="18"
+                    HeightRequest="40" />
+            <ListView x:Name="SuggesstionsInsuranceListView"
+                      ItemTapped="SuggesstionsInsuranceListView_ItemTapped"
+                      BackgroundColor="LightGray"
+                      Grid.Row="1"
+                      Grid.Column="1"
+                      Grid.ColumnSpan="3" />
+
+            <Label Text="Plan:"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   FontSize="25"
+                   HorizontalOptions="End"
+                   Margin="80, 0" />
+
+            <controls:CheckBox DefaultText="New Spec Rx"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="2"
+                               Grid.Column="1" />
+            <controls:CheckBox DefaultText="New CI Rx"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="3"
+                               Grid.Column="1" />
+
+            <Label Text="Exam Type: "
+                   Grid.Row="2"
+                   Grid.Column="2"
+                   FontSize="25"
+                   Margin="50, 0"
+                   HorizontalOptions="End" />
+            <controls:CheckBox DefaultText="Routine"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="2"
+                               Grid.Column="3" />
+            <controls:CheckBox DefaultText="Comprehensive"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="3"
+                               Grid.Column="3" />
+            <controls:CheckBox DefaultText="Intermediate"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="4"
+                               Grid.Column="3" />
+            <controls:CheckBox DefaultText="CL Fitting"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="2"
+                               Grid.Column="4" />
+            <controls:CheckBox DefaultText="Other"
+                               HorizontalOptions="FillAndExpand"
+                               FontSize="25"
+                               Grid.Row="3"
+                               Grid.Column="4" />
+        </Grid>
+
+    </StackLayout>
+</ContentPage>
