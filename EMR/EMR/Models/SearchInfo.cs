@@ -13,6 +13,7 @@ namespace EMR.Models
         private string firstName;
         private string dateOfB;
         private int phoneNum;
+        private string address;
 
         public int DOB
         {
@@ -74,7 +75,17 @@ namespace EMR.Models
             }
         }
 
-        public SearchInfo(int dob, string idNum, string name, string firstName, string dateOfB, int phoneNum)
+        public string Address
+        {
+            get { return address; }
+            set
+            {
+                this.address = value;
+                RaisePropertyChanged("Address");
+            }
+        }
+
+        public SearchInfo(int dob, string idNum, string name, string firstName, string dateOfB, int phoneNum, string address)
         {
             this.DOB = dob;
             this.IDNum = idNum;
@@ -82,6 +93,7 @@ namespace EMR.Models
             this.FirstName = firstName;
             this.DateOfBirth = dateOfB;
             this.PhoneNum = phoneNum;
+            this.Address = address;
 
         }
 

@@ -18,7 +18,7 @@ namespace EMR.ViewModel
 
         private void GenerateClients()
         {
-            SearchInfo.Add(new Models.SearchInfo(0001, "AK00123", "Smith", "Tom", "10/10/1990", 651045896));
+            SearchInfo.Add(new Models.SearchInfo(0001, "AK00123", "Smith", "Tom", "10/10/1990", 651045896, "250 N 860 E, SLC UT, 84012"));
         }
     }
 }
