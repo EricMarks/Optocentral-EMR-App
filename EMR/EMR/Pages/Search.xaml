@@ -72,13 +72,7 @@
                 <x:Array Type="{x:Type x:String}">
                     <x:String>mono</x:String>
                     <x:String>monodroid</x:String>
-                    <x:String>monotouch</x:String>
-                    <x:String>monorail</x:String>
-                    <x:String>monodevelop</x:String>
-                    <x:String>monotone</x:String>
-                    <x:String>monopoly</x:String>
-                    <x:String>monomodal</x:String>
-                    <x:String>mononucleosis</x:String>
+                  
                 </x:Array>
             </ListView.ItemsSource>
         </ListView>
