@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local1="clr-namespace:EMR.Pages"
              xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-             android:TabbedPage.ToolbarPlacement="Bottom" BarBackgroundColor="LightBlue"  
+             android:TabbedPage.ToolbarPlacement="Bottom" BarBackgroundColor="#457B9D"  
              x:Class="EMR.Pages.Exams" Title="Exams">
 
     <TabbedPage.Children >

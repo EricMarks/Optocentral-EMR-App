@@ -3,14 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:EMR"
              xmlns:local1="clr-namespace:EMR.Pages"
-             x:Class="EMR.MainPage" BarBackgroundColor="Gray" >
+             x:Class="EMR.MainPage" BarBackgroundColor="#1D3557" >
 
     
     <TabbedPage.Children>
         <local1:Patient Icon="Patient"></local1:Patient>
         <local1:History Icon="History"></local1:History>
         <local1:Exams Icon="Exams"></local1:Exams>
-       
         <local1:Search Icon="Search"></local1:Search>
         <local1:Insurance Icon="Insurance"></local1:Insurance>
       
