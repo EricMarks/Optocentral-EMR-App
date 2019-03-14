@@ -1,7 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+             xmlns:local="clr-namespace:EMR.Models"
              x:Class="EMR.Pages.Others" Title="Follow-Up">
+    
+    <ContentPage.BindingContext>
+        <local:FollowUpRepository/>
+    </ContentPage.BindingContext>
+
+
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
@@ -38,19 +46,25 @@
                
             </StackLayout>
 
-            <!--<ListView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" x:Name="followUpList" BackgroundColor="White" WidthRequest="1000" HeightRequest="500" HorizontalOptions="Center" ItemsSource="">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>-->
+            <StackLayout Margin="5" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2">
 
 
-            
+                <syncfusion:SfDataGrid x:Name="FollowUpDataGrid"
+                               ItemsSource="{Binding FollowUpRepository}"
+                               DefaultColumnWidth="100"
+                               Margin="30, 30">
+
+                </syncfusion:SfDataGrid>
+
+
+            </StackLayout>
+
+
+
 
         </Grid>
       
+        
             
         
     </ContentPage.Content>
